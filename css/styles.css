@@ -1,0 +1,180 @@
+#padding{
+    padding: 6% 15%;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+#heading{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
+}
+
+#phoneImage{
+    height: 500px;
+    padding-left: 150px;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+#brand{
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+}
+
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+#features-section{
+    padding: 80px;
+    text-align: center;
+}
+
+#tick{
+    color: #ff4c68;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+#tick:hover{
+    color: black;
+}
+
+#circle{
+    color: #ff4c68;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+#circle:hover{
+    color: black;
+}
+
+#heart{
+    color: #ff4c68;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+#heart:hover{
+    color: black;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.dogCom{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+#testimonials{
+    padding-top: 50px;
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+#dogImage{
+    border-radius: 100%;
+    width: 15%;
+}
+
+#dogname{
+    margin-left: 20px;
+    color: white;
+}
+
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.pressImage{
+    width: 20%;
+    padding: 0 30px;
+}
+
+#ladyImage{
+    border-radius: 100%;
+    margin-right: 20px;
+    width: 15%;
+}
+
+#ladyname{
+    color: white;
+}
+
+#pricing{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 80px 150px;
+    text-align: center;
+}
+
+#pricingText{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#pricing-P{
+    margin-bottom: 50px;
+}
+
+#cta{
+    padding-top: 50px;
+    height: 400px;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#lastText{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 1024px){
+
+    #padding{
+        text-align: center;
+    }
+
+    #phoneImage{
+        position: static;
+        transform: rotate(0deg);
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+
+    .dogCom{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #pricing{
+        margin: 50px 40px;
+    }
+}
+
+#footer{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 10px;
+}
