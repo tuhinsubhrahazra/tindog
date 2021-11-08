@@ -132,8 +132,11 @@
 }
 
 @media (max-width: 1024px){
+
+    /* Nav Bar */
+
     #brand{
-        font-size: 70px;
+        font-size: 100px;
         margin-left: 20px;
     }
 
@@ -146,12 +149,14 @@
         font-size: 50px;
     }
 
+    /* Title  */
+
     #title-container{
         text-align: center;
     }
 
     #heading{
-        font-size: 90px;
+        font-size: 100px;
     }
 
     .button-download{
@@ -165,7 +170,7 @@
     .button-download-text{
         margin-left: 10px;
         font-style: normal;
-        font-size: 40px;
+        font-size: 45px;
     }
 
     .features-icon{
@@ -252,8 +257,12 @@
 
     /* id:cta same as title section */
 
+    #lastText{
+        font-size: 70px;
+    }
+
     #cta{
-        height: 600px;
+        height: 700px;
     }
 
     .social-icon{
