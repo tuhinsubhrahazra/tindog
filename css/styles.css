@@ -1,20 +1,41 @@
-#title-container{
-    padding: 6% 15%;
+body{
+
 }
+
+i{
+    font-style: normal;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* title Section */
+
+/* Nav Bar  */
 
 #title{
     background-color: #ff4c68;
 }
 
-.button-download-text{
-    margin-left: 10px;
-    font-style: normal;
+#brand{
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+}
+
+/* title */
+
+#title-container{
+    padding: 6% 15%;
 }
 
 #heading{
     font-size: 60px;
-    font-family: 'Montserrat', sans-serif;
     padding-bottom: 50px;
+}
+
+.button-download-text{
+    margin-left: 10px;
 }
 
 #phoneImage{
@@ -22,11 +43,6 @@
     padding-left: 150px;
     transform: rotate(20deg);
     position: absolute;
-}
-
-#brand{
-    font-size: 40px;
-    font-family: 'Fredoka One', cursive;
 }
 
 #features{
@@ -93,7 +109,7 @@
 
 #pricing{
     font-family: 'Merriweather Sans', sans-serif;
-    margin: 80px 150px;
+    padding: 80px 150px;
     text-align: center;
 }
 
